@@ -12,19 +12,27 @@ public class Board {
 		pieces = new Piece[rows][columns];
 	}
 
-	public int getRow() {
+	public int getRows() {
 		return rows;
 	}
 
-	public void setRow(int row) {
-		this.rows = row;
+	public void setRows(int rows) {
+		this.rows = rows;
 	}
 
-	public Piece[][] getPieces() {
-		return pieces;
+	public int getColumns() {
+		return columns;
 	}
 
-	public void setPieces(Piece[][] pieces) {
-		this.pieces = pieces;
+	public void setColumns(int columns) {
+		this.columns = columns;
+	}
+
+	public Piece piece(int row, int column) {
+		return pieces[row][column];
+	}
+	
+	public Piece piece(Position position) {
+		return pieces[position.getRow()][position.getColumn()];
 	}
 }
