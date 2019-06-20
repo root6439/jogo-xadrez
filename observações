@@ -1,5 +1,11 @@
 Embora as classes, os métodos e atributos do sistema foram desenvolvidos com nomes em inglês, a parte de interface 
-com o usuário foi feita em português para facilitar o usuário.
+com o usuário foi feita em português para facilitar o entendimento do jogo.
 
 Programa roda no Git Bash, caso seu computador não tenha pode ser encontrado em https://git-scm.com/downloads.
 
+Ao ser baixado o zip do programa, extraia-o. Após isso, com o git bash instalado, acesse a pasta bin, clique com o
+botão direito em um espaço em branco e depois clique em "Git Bash here"
+
+Após isso, escreva no terminal Git "java/application/Program" e o jogo começará
+
+Para finalizar o programa basta apertar CTRL+C
