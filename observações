@@ -9,3 +9,7 @@ botão direito em um espaço em branco e depois clique em "Git Bash here"
 Após isso, escreva no terminal Git "java/application/Program" e o jogo começará
 
 Para finalizar o programa basta apertar CTRL+C
+
+Por último, será necessário fazer uma alteração no compilador. No Eclipse, clique com o botão direito na pasta do 
+projeto e em seguida selecione propriedades. Depois vá para a tela "Java Compiler", desmarque a opção "Use complia
+nce from execution...", e em "Compiler compliance level" altere para 1.8.
